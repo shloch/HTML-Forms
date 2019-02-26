@@ -1,10 +1,39 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  font-size: 14px;
   background: #ECEEF1;
+  font-family: AvenirNext, Avenir, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+  color: #0077C5;
+  text-decoration: none;
+}
+
+#signin {
+  margin-top: 0.5%;
+  font-family: Font;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#signin img {
+  float: right;
+}
+
+#signin .signin_txt {
+  text-align: right;
+  margin: 0;
 }
 
 main {
-  width: 500px;
+  width: 400px;
   margin: auto;
 }
 
@@ -16,76 +45,116 @@ main {
   background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos_new.png);
 }
 
-#external {
-  margin: 0;
+#externals {
   padding: 0;
+  margin: 20px 0;
+  text-align: center;
 }
 
-#externals li {
+#externals > li {
+  margin: 0 2px;
+  display: inline-block;
+}
+
+#externals > li > a > span {
+  height: 20px;
   display: inline-block;
   background-repeat: no-repeat;
 }
 
-.mint.favicon {
+.favicon {
   width: 20px;
+}
+
+.mint.favicon {
   background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg);
 }
 
 .mint.text {
-  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/mint-text.svg)
+  width: 38px;
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/mint-text.svg);
 }
 
 .quickbooks.favicon {
-  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg)
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg);
 }
 
 .quickbooks.text {
-  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/quick-books-text.svg)
+  width: 99px;
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/quick-books-text.svg);
 }
 
 .turbotax.favicon {
-  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg)
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg);
 }
 
 .turbotax.text {
+  width: 75px;
   background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/turbo-tax-text.svg);
-  background-color: #ECEEF1;
-  min-height: 50%;
 }
 
-#signin {
-    width: 30%;
-    float: right;
-    /*border: 1px solid black;*/
-    margin-top: 0.5%;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 1.5;
+form {
+  padding: 30px;
+  background: #fff;
 }
 
-#signin img {
-    float: right;
+form > h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
 }
 
-#signin .signin_txt {
-    /* overflow: hidden;*/
-    /*border: 1px solid red;*/
-    float: right;
+form > p:first-of-type {
+  padding: 0 20px;
+  text-align: center;
 }
 
-#signin a {
-    color: #0077C5;
+.small {
+  font-size: 0.9em;
 }
 
-#content {
-    min-height: calc(100vh - 50px);
+label {
+  padding: 10px 0;
+}
+
+input {
+  padding: 6px;
+  font-size: 1.1em;
+  border-radius: 3px;
+  border: 1px solid #999;
+}
+
+.input-box > * {
+  width: 100%;
+  display: block;
+}
+
+.msg {
+  padding: 5px 0;
+  font-size: 0.8em;
+}
+
+.lock {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-size: 15px 15px;
+  background: url(https://accounts.intuit.com/images/v2/icon-whitelock@3x.png?v=1.46.0.14);
+}
+
+form button {
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: #0077C5;
+  border-radius: 3px;
 }
 
 footer {
-    /*margin-top: -50px;*/
-    margin-bottom: 4.5%;
-    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
-    font-size: 12px;
-    color: #505050;
+  margin-bottom: 4.5%;
+  font-size: 12px;
+  color: #505050;
 }
