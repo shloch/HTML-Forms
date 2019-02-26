@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: #ECEEF1;
+}
+
+main {
+  width: 500px;
+  margin: auto;
+}
+
+.logo {
+  width: 118px;
+  height: 35px;
+  margin: auto;
+  display: block;
+  background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos_new.png);
+}
+
+#external {
+  margin: 0;
+  padding: 0;
+}
+
+#externals li {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.mint.favicon {
+  width: 20px;
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg);
+}
+
+.mint.text {
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/mint-text.svg)
+}
+
+.quickbooks.favicon {
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg)
+}
+
+.quickbooks.text {
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/quick-books-text.svg)
+}
+
+.turbotax.favicon {
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg)
+}
+
+.turbotax.text {
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/turbo-tax-text.svg)
+}
