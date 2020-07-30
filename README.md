@@ -27,3 +27,7 @@ You can navigate to this link  https://raw.githack.com/shloch/HTML-Forms/master/
 
 ## 👤 **Fabien RAKOTOMAMPIANDRA**
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
+
+## Acknowledgements
+- https://raw.githack.com/
+- https://intuit.me/2EAE2zh
